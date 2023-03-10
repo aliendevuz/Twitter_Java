@@ -4,11 +4,11 @@ public class Post {
 
     public int profile;
     public String name;
-    public int photo;
+    public int[] photos;
 
-    public Post(int profile, String name, int photo) {
+    public Post(int profile, String name, int[] photos) {
         this.profile = profile;
         this.name = name;
-        this.photo = photo;
+        this.photos = photos;
     }
 }

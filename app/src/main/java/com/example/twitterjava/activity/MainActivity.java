@@ -67,11 +67,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void feedLoad(ArrayList<Post> feeds) {
-        feeds.add(new Post(R.drawable.image1, "Alien Ware", R.drawable.post1));
-        feeds.add(new Post(R.drawable.image2, "Khalilov Ibrohim", R.drawable.post2));
-        feeds.add(new Post(R.drawable.image3, "Alien Dev", R.drawable.post3));
-        feeds.add(new Post(R.drawable.image1, "Alien Ware", R.drawable.post1));
-        feeds.add(new Post(R.drawable.image2, "Khalilov Ibrohim", R.drawable.post2));
-        feeds.add(new Post(R.drawable.image3, "Alien Dev", R.drawable.post3));
+        feeds.add(new Post(R.drawable.image1, "Alien Ware", new int[] {R.drawable.post1}));
+        feeds.add(new Post(R.drawable.image2, "Khalilov Ibrohim", new int[] {R.drawable.post2, R.drawable.image3}));
+        feeds.add(new Post(R.drawable.image3, "Alien Dev", new int[] {R.drawable.post3}));
+        feeds.add(new Post(R.drawable.image1, "Alien Ware", new int[] {R.drawable.post1, R.drawable.image2}));
+        feeds.add(new Post(R.drawable.image2, "Khalilov Ibrohim", new int[] {R.drawable.post2}));
+        feeds.add(new Post(R.drawable.image3, "Alien Dev", new int[] {R.drawable.post3}));
     }
 }
