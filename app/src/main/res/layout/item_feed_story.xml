@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/story_profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="2dp"
+        android:src="@drawable/image2"
+        app:shapeAppearanceOverlay="@style/circleImage"
+        app:strokeColor="#1DA1F2"
+        app:strokeWidth="2dp"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/story_name"
+        android:gravity="center_horizontal"
+        android:text="Ibrohim"
+        android:singleLine="true"
+        android:textSize="13sp"
+        android:textColor="#90FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
